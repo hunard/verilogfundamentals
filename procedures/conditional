@@ -6,6 +6,4 @@ module top_module (
     assign min2=(c<d)?c:d;
     assign min=(min1<min2)?min1:min2;
 
-    // assign intermediate_result1 = compare? true: false;
-
 endmodule
